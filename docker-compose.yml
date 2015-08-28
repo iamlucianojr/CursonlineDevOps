@@ -3,5 +3,5 @@ web:
   ports:
     - "80:80"
   volumes:
-    - ./src:/var/www
-    - ./src/vhost.conf:/etc/nginx/sites-enabled/vhost.conf
+    - ./application:/var/www
+    - ./application/vhost.conf:/etc/nginx/sites-enabled/vhost.conf
